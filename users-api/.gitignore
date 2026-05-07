@@ -1,0 +1,22 @@
+# Variables de entorno (¡CRÍTICO no subir esto!)
+.env
+
+# Binarios y archivos compilados de Go
+/api
+/cmd/api/api
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependencias (se recuperan con go mod download)
+vendor/
+
+# Datos persistentes de Docker (para que no pesen en el repo)
+db_data/
+
+# Archivos temporales de VS Code o el sistema
+.vscode/
+.idea/
+.DS_Store
