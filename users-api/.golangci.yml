@@ -1,0 +1,24 @@
+linters-settings:
+  govet:
+    check-shadowing: true # Te avisa si una variable oculta a otra (error común)
+  errcheck:
+    check-type-assertions: true
+    check-blank: true
+  gocyclo:
+    min-complexity: 15 # Te avisa si una función es demasiado larga y difícil de leer
+
+linters:
+  disable-all: true
+  enable:
+    - govet       # Errores de compilación y sospechas
+    - errcheck    # El "must-have" de Go: ¿chequeaste el error?
+    - staticcheck # El análisis estático más moderno
+    - unused      # Borra lo que no usás
+    - gosimple    # Te enseña a escribir código más "Go-style"
+    - gofmt       # Mantiene el estilo de espaciado estándar
+    - misspell    # ¡Incluso te avisa si escribiste mal una palabra en inglés!
+
+run:
+  timeout: 5m
+  # No analiza carpetas de tests si no querés, pero aquí lo dejamos estándar
+  tests: true
