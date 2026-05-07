@@ -12,7 +12,7 @@ import (
 const message = "Users API starting upt... 🚀"
 
 func main() {
-	response := fmt.Sprintf("Hello, World!, %s", message)
+	response := fmt.Sprintf("Hello, World!!!, %s", message)
 	fmt.Println(response)
 
 	port := os.GetEnv("PORT")
