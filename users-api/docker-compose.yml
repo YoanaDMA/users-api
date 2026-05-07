@@ -1,4 +1,4 @@
-// Docker para tener MySQL listo
+# Docker para tener MySQL listo
 
 version: '3.8'
 
