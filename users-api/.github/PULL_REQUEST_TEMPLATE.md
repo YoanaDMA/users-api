@@ -1,10 +1,9 @@
 ## 📝 Description
 
-<-- Describe your change -->
-
+<!-- Describe your change -->
 ## 🛠️ Type of Changes
 
-<-- put an ['x'] in all the boxes that apply -->
++<!-- Put an 'x' in all the boxes that apply -->
 
 - [ ] ✨ New feature (feat)
 - [ ] 🐛 Bug fix (fix)
@@ -14,7 +13,7 @@
 
 ## ✅ Checklist
 
-<-- put an ['x'] in all the boxes that apply -->
++<!-- Put an 'x' in all the boxes that apply -->
 
 - [ ] My code follows the style guidelines of this project.
 - [ ] I have performed a self-review of my own code.
@@ -23,8 +22,7 @@
 
 ## 📸 Evidence
 
-<-- add screenshots, json, curl, logs, etc -->
-
+<!-- Add screenshots, json, curl, logs, etc -->
 ## 🔗 Related Issues
 
-<-- If no issue exists yet, please provide a brief description of the task -->
+<!-- If no issue exists yet, please provide a brief description of the task -->
