@@ -3,7 +3,7 @@
 <!-- Describe your change -->
 ## 🛠️ Type of Changes
 
-+<!-- Put an 'x' in all the boxes that apply -->
+<!-- Put an 'x' in all the boxes that apply -->
 
 - [ ] ✨ New feature (feat)
 - [ ] 🐛 Bug fix (fix)
@@ -13,7 +13,7 @@
 
 ## ✅ Checklist
 
-+<!-- Put an 'x' in all the boxes that apply -->
+<!-- Put an 'x' in all the boxes that apply -->
 
 - [ ] My code follows the style guidelines of this project.
 - [ ] I have performed a self-review of my own code.
