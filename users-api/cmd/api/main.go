@@ -9,7 +9,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-const message = "Users API starting upt... 🚀"
+const message = "Users API starting up... 🚀"
 
 func main() {
 	response := fmt.Sprintf("Hello, World, %s", message)
